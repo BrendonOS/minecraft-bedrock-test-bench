@@ -1,4 +1,4 @@
-spiffy
+spiffy [![CircleCI](https://img.shields.io/circleci/project/spiffy/spiffy.svg)]()
 ======
 
 A Minecraft: PE server in Python
