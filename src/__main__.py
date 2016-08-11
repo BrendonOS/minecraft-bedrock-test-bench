@@ -1,7 +1,7 @@
 from pyraklib.server import PyRakLibServer
 from pyraklib.server import ServerHandler
-from pyraklib.server import ServerInstance
 from world import Chunk
+from handler import Handler
 import config
 import time
 import sys
@@ -17,27 +17,8 @@ for x in range(16):
 			chunk.setSkyLight(x, y, z, 15)
 			chunk.setBlockLight(x, y, z, 15)
 
-class Handler(ServerInstance):
-    def openSession(self, identifier, address, port, clientID):
-    	print(identifier, address, port, clientID)
-
-    def closeSession(self, identifier, reason): 
-    	print(identifier, reason)
-
-    def handleEncapsulated(self, identifier, packet, flags):
-    	print(identifier, packet, flags)
-
-    def handleRaw(self, address, port, payload):
-    	print(address, port, payload)
-
-    def notifyACK(self, identifier, identifierACK):
-    	print(identifier, identifierACK)
-
-    def handleOption(self, option, value):
-    	print(option, value)
-
 config = config.handleConfig()
-server = PyRakLibServer(config['port'])
+server = PyRakLibServer(config['port'], True) # verbose
 serverInstance = Handler()
 handler = ServerHandler(server, serverInstance)
 handler.sendOption("name", "MCPE;" + config['name'] + ";82 82;0.15.4;0;20")
