@@ -6,9 +6,10 @@
 
 #### OS and versions
 <!--- Valid version must contain build number or git hash -->
-* Server OS:
-* Game version:
 * Spiffy:
+* Server OS:
+* Client OS:
+* Client version:
 
 #### Crashdump, backtrace, or other files
 <!--- Paste in the below block -->
