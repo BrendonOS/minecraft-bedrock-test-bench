@@ -2,6 +2,7 @@ from pyraklib.server import PyRakLibServer
 from pyraklib.server import ServerHandler
 from pyraklib.server import ServerInstance
 from world import Chunk
+import config
 import time
 import sys
 
@@ -35,7 +36,9 @@ class Handler(ServerInstance):
     def handleOption(self, option, value):
     	print(option, value)
 
-server = PyRakLibServer(19132)
+config = config.handleConfig()
+server = PyRakLibServer(config['port'])
 serverInstance = Handler()
 handler = ServerHandler(server, serverInstance)
-handler.sendOption("name", "MCPE;A Minecraft: PE Server;82 82;0.15.4;0;20")
+handler.sendOption("name", "MCPE;" + config['name'] + ";82 82;0.15.4;0;20")
+print("starting server on *:19132")
