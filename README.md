@@ -10,7 +10,8 @@ $ pip install virtualenv
 $ virtualenv .venv
 $ virtualenv -p /usr/bin/python .venv
 $ virtualenv -p /usr/bin/python2.7 .venv
+$ source ./venv/bin/activate
 $ pip install -r requirements.txt
-$ python main.py
+$ python src
 $ deactivate
 ```
