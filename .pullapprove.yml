@@ -9,4 +9,4 @@ reviewers:
   - dschwartz783
   - ZedCee
   name: pullapprove
-  required: 2
+  required: 1

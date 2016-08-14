@@ -104,3 +104,11 @@ pip-selfcheck.json
 
 # Spiffy
 settings.json
+
+# Nuitka
+*.build
+*.exe
+*.pyc
+
+# PyRakLib
+/src/pyraklib

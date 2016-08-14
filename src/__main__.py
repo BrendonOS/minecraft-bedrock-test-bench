@@ -18,7 +18,7 @@ for x in range(16):
 			chunk.setBlockLight(x, y, z, 15)
 
 config = config.handleConfig()
-server = PyRakLibServer(config['port'], True) # verbose
+server = PyRakLibServer(config['port'])
 serverInstance = Handler()
 handler = ServerHandler(server, serverInstance)
 handler.sendOption("name", "MCPE;" + config['name'] + ";82 82;0.15.4;0;20")
