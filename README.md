@@ -11,6 +11,6 @@ $ virtualenv -p /usr/bin/python .venv
 $ virtualenv -p /usr/bin/python2.7 .venv
 $ source ./venv/bin/activate
 $ pip install -r requirements.txt
-$ python src
+$ python main.py
 $ deactivate
 ```
