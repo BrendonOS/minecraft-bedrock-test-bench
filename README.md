@@ -3,7 +3,7 @@ spiffy [![CircleCI](https://img.shields.io/circleci/project/spiffy/spiffy.svg)](
 **A Minecraft: PE server in Python**
 
 The brainchild of four, who like Python and like Minecraft: PE...
-<img style="float: right;" src="https://raw.githubusercontent.com/ZedCee/various_graphics/master/sheepLogo/sheepLogoCrossSectionTrans.png" height="300" width="300">
+<img align="right" src="https://raw.githubusercontent.com/ZedCee/various_graphics/master/sheepLogo/sheepLogoCrossSectionTrans.png" height="250" width="250">
 
 ### Features
 - Python plugin system
