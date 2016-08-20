@@ -10,9 +10,10 @@ The brainchild of four, who like Python and like Minecraft: PE...
 - Threaded RakLib with deadlock security
 - Parts written as C extensions for maximum speed
 - LevelDB world saving/loading
+
 ### Dependencies
-* Python 3.5 (CPython, PyPy or Nuitka if you're feeling dangerous :wink:)
-* virtualenv, preferrably installed via pip (may also be installed via source or Linux repository)
+- Python 3.5 (CPython, PyPy or Nuitka if you're feeling dangerous :wink:)
+- virtualenv, preferrably installed via pip (may also be installed via source or Linux repository)
 
 ### Installation
 It's easy, just make sure you've got virtualenv (preferrably installed via pip, may also be installed via source or Linux repository) and Python 3.5 (CPython, PyPy or Nuitka if you're feeling dangerous :wink:) then just run the following
