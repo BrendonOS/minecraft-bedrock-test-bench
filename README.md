@@ -1,16 +1,15 @@
 spiffy [![CircleCI](https://img.shields.io/circleci/project/spiffy/spiffy.svg)]() [![Gitter](https://badges.gitter.im/spiffy/spiffy.svg)](https://gitter.im/spiffy/spiffy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ======
 **A Minecraft: PE server in Python**
-<img style="float: right;" src="https://raw.githubusercontent.com/ZedCee/various_graphics/master/sheepLogo/sheepLogoCrossSectionTrans.png" height="300" width="300">
 
 The brainchild of four, who like Python and like Minecraft: PE...
+<img style="float: right;" src="https://raw.githubusercontent.com/ZedCee/various_graphics/master/sheepLogo/sheepLogoCrossSectionTrans.png" height="300" width="300">
 
 ### Features
 - Python plugin system
 - Threaded RakLib with deadlock security
 - Parts written as C extensions for maximum speed
 - LevelDB world saving/loading
-
 ### Dependencies
 * Python 3.5 (CPython, PyPy or Nuitka if you're feeling dangerous :wink:)
 * virtualenv, preferrably installed via pip (may also be installed via source or Linux repository)
