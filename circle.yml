@@ -4,8 +4,8 @@ machine:
 
 dependencies:
   pre:
-    - pip install -r requirements.txt
+    - w | pip install -r requirements.txt
 
 test:
   override:
-    - echo 'TODO! Add tests ;)'
+    - echo 'add tests ... ?'
