@@ -63,4 +63,4 @@ Licence
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Logo by [ZedCee](https://github.com/ZedCee) - *All rights resvered, copy and reuse of the logo is forbidden.*
+Logo by [ZedCee](https://github.com/ZedCee) - *All rights reserved, copy and reuse of the logo is forbidden.*
