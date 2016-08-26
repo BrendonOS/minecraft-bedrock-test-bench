@@ -1,8 +1,7 @@
 spiffy [![CircleCI](https://img.shields.io/circleci/project/spiffy/spiffy.svg)]() [![Gitter](https://badges.gitter.im/spiffy/spiffy.svg)](https://gitter.im/spiffy/spiffy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ======
-**A Minecraft: PE server in Python**
+**A Minecraft: PE server software written in Python**
 
-The brainchild of four, who like Python and like Minecraft: PE...
 <img align="right" src="https://raw.githubusercontent.com/ZedCee/various_graphics/master/sheepLogo/sheepLogoCrossSectionTrans.png" height="250" width="250">
 
 ### Features
@@ -24,7 +23,7 @@ $ deactivate
 
 ### Chat / Help & Support
 
-This project is presently a work in progress
+This project is currently work in progress and is not currently functional. If you have questions, come and ask them in our [Gitter chat](https://gitter.im/spiffy/spiffy) instead of opening issues.
 <!--If you have an issue, please make sure to check the [FAQs](https://github.com/spiffy/spiffy/wiki/FAQs) page before opening any issues. We are constantly fixing issues and are continuously updating, so please also ensure that you are up-to-date before opening any issues.-->
 
 ### Licence
