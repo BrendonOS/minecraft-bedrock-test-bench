@@ -1,13 +1,12 @@
 spiffy [![CircleCI](https://img.shields.io/circleci/project/spiffy/spiffy.svg)]() [![Gitter](https://badges.gitter.im/spiffy/spiffy.svg)](https://gitter.im/spiffy/spiffy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ======
 **A Minecraft: PE server software written in Python**
-
+<img align="right" src="https://raw.githubusercontent.com/ZedCee/various_graphics/master/sheepLogo/sheepLogoCrossSectionTrans.png" height="250" width="250">
 ### Objectives
 We aim to provide a full-featured, vanilla-style MCPE server to provide the complete vanilla online Minecraft experience. We aim to do anything that Realms can do, and more. Spiffy will be custom-designed around the client for a clean, fast, bug-free online Minecraft experience.
 - Full-featured MCPE game experience. We aim to make Spiffy the equal of or better than Realms in terms of gaming and features.
 - Support all MCPE client variants, including, but not limited to, Pocket Edition, Windows 10 Edition Beta and GearVR Edition.
 - Customizable features and behaviour in the form of optional extension modules and a powerful plugin API
-<img align="right" src="https://raw.githubusercontent.com/ZedCee/various_graphics/master/sheepLogo/sheepLogoCrossSectionTrans.png" height="250" width="250">
 
 ### Planned features
 - Python plugin system
