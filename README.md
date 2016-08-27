@@ -15,7 +15,7 @@ We aim to provide a full-featured, vanilla-style MCPE server to provide the comp
 - LevelDB world saving/loading
 
 ### Installation
-It's easy, just make sure you've got virtualenv (preferrably installed via pip, may also be installed via source or Linux repository) and Python 3.5 (CPython or Nuitka if you're feeling dangerous :wink:) then just run the following
+It's easy, just make sure you've got virtualenv (preferrably installed via pip, may also be installed via source or Linux repository) and Python 3.5 (CPython, PyPy or Nuitka if you're feeling dangerous :wink:) then just run the following
 ```sh
 $ pip install virtualenv  # Optional, but highly, highly recommended
 $ virtualenv -p /usr/bin/python .venv
