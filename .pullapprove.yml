@@ -6,7 +6,6 @@ reviewers:
   members:
   - mhsjlw
   - dktapps
-  - dschwartz783
   - ZedCee
   name: pullapprove
   required: 1
